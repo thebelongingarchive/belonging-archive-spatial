@@ -57,6 +57,23 @@ This repository houses cleaned datasets, dyadic spatial network panels, and econ
 
 - **`clean_combined_dyads.csv`**: 1,849 dyadic spatial network observations linking Brooklyn and Harlem ZIP pairs. Contains log-scaled Social Connectedness Index (`log_sci`), tie classifications (`tie_type`), and origin/destination social capital covariates.
 - **`social_capital_core_variables.csv`**: Lightweight 43-ZIP panel isolating core Economic Connectedness (`ec_zip`) and Neighborhood Friending Bias (`nbhd_bias_zip`) across Brooklyn and Upper Manhattan.
+- ## 📈 Key Findings & Visualizations
+
+### 1. The Gentrification Paradox
+![The Gentrification Paradox](figures/Plot2_Gentrification_Paradox.jpg)
+*Figure 1: Strong positive correlation (r = +0.939) between Economic Connectedness and child upward mobility ranks across Brooklyn and Harlem study tracts, sized by 20-year demographic displacement severity.*
+
+---
+
+### 2. Demographic Displacement vs. Neighborhood Social Bias
+![Demographic Displacement vs Spatial Bias](figures/Plot1_Displacement_vs_Bias.png)
+*Figure 2: 20-year Black population shifts (2000–2020) mapped against spatial neighborhood bias scales across focal study corridors.*
+
+---
+
+### 3. CUNY Anchor Institutional Mobility
+![CUNY Mobility Rates](figures/Plot2_CUNY_Mobility_Rates.png)
+*Figure 3: CUNY institutions ranked by bottom-to-top 20% income mobility rates (Opportunity Insights data).*
 
 ---
 
