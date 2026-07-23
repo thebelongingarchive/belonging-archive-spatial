@@ -53,6 +53,11 @@ This repository houses cleaned datasets, dyadic spatial network panels, and econ
 * **`Tract_Upward_Mobility_Rank`**: Mean income percentile rank for children from low-income families
 * **`Anchor_CUNY_Mobility_Rate`**: Institutional economic mobility rate for local anchor CUNY colleges
 
+* ### 📂 Analytical Datasets (`outputs/` & `data/`)
+
+- **`clean_combined_dyads.csv`**: 1,849 dyadic spatial network observations linking Brooklyn and Harlem ZIP pairs. Contains log-scaled Social Connectedness Index (`log_sci`), tie classifications (`tie_type`), and origin/destination social capital covariates.
+- **`social_capital_core_variables.csv`**: Lightweight 43-ZIP panel isolating core Economic Connectedness (`ec_zip`) and Neighborhood Friending Bias (`nbhd_bias_zip`) across Brooklyn and Upper Manhattan.
+
 ---
 
 ## 🛠️ Data Sources & Citation
